@@ -1,0 +1,52 @@
+{
+  "name": "dota-gsi-overlay-electron",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Overlay Tático de Dota 2 usando Electron e GSI.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run build:react && cross-env NODE_ENV=production node server.js & electron .",
+    "server": "node server.cjs",
+    "dev": "cross-env NODE_ENV=development npm run server & npm run vite-dev & npm run electron",
+    "vite-dev": "vite",
+    "electron": "electron .",
+    "build": "vite build",
+    "build:react": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "electron": "^39.2.1",
+    "express": "^4.21.2",
+    "lucide-react": "^0.553.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.22",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vite": "npm:rolldown-vite@7.2.2"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.2"
+  },
+  "keywords": [
+    "Electron",
+    "React",
+    "Dota2",
+    "GSI"
+  ]
+}
