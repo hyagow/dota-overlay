@@ -85,4 +85,4 @@ Segurança: O GSI é uma ferramenta oficial da Valve e não resulta em banimento
 
 # 📝 Licença
 
-Este projeto foi desenvolvido para uso pessoal e tático. Sinta-se à vontade para modificar e adaptar às suas necessidades de jogo.
+Este projeto foi desenvolvido para uso pessoal e tático por Hyago. Sinta-se à vontade para modificar e adaptar às suas necessidades de jogo.
