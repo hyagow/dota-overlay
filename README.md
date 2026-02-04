@@ -12,7 +12,7 @@ Este é um overlay tático em tempo real para Dota 2, construído com React, Tai
 
 - Fases do Jogo: Alertas visuais para Early, Mid e Late Game.
 
-- Interface Transparente: Design minimalista que não obstrui a visão do jogador.
+- Interface Transparente: Design minimalista que não obstrui a visão do jogador. (ainda em desenvolvimento)
 
 - Dicas Dinâmicas: Sugestões táticas baseadas no tempo de jogo e objetivos iminentes.
 
