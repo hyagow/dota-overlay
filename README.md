@@ -4,7 +4,7 @@ Este é um overlay tático em tempo real para Dota 2, construído com React, Tai
 
 # 🚀 Funcionalidades
 
-- Relógio Mestre: Sincronizado diretamente com o tempo real da partida.
+- Relógio Expert: Sincronizado diretamente com o tempo real da partida.
 
 - Timers de Runas: Contagem decrescente para Runas de Poder, Recompensa (Bounty), Lótus e Sabedoria.
 
