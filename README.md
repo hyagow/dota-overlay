@@ -36,7 +36,7 @@ Navega até a pasta de configuração do Dota 2:
 ```C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\```
 (Se a pasta ```gamestate_integration``` não existir, cria-a).
 
-Cria um ficheiro chamado ```gamestate_integration_overlay.cfg``` e cola o seguinte conteúdo:
+Cria um ficheiro chamado: ```gamestate_integration_overlay.cfg``` e cola o seguinte conteúdo:
 ```bash
 "Dota 2 Integration Configuration"
 {
