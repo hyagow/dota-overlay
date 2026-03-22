@@ -2,7 +2,7 @@
 
 Este é um overlay tático em tempo real para Dota 2, construído com React, Tailwind CSS e Electron. O sistema utiliza a interface GSI (GameState Integration) oficial da Valve para extrair dados do jogo e exibir timers precisos de objetivos.
 
-# 🚀 Funcionalidades
+# 🚀 Funcionalidades:
 
 - Relógio Expert: Sincronizado diretamente com o tempo real da partida.
 
