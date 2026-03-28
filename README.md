@@ -16,7 +16,7 @@ Este é um overlay tático em tempo real para Dota 2, construído com React, Tai
 
 - Dicas Dinâmicas: Sugestões táticas baseadas no tempo de jogo e objetivos iminentes.
 
-# 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas:
 
 - Frontend: React.js, Tailwind CSS, Lucide Icons.
 
