@@ -26,9 +26,9 @@ Este é um overlay tático em tempo real para Dota 2, construído com React, Tai
 
 - Integração: Dota 2 GameState Integration (GSI).
 
-# 📦 Instalação e Configuração
+# 📦 Instalação e Configuração:
 
-### 1. Configurar o Dota 2 (GSI)
+### 1. Configurar o Dota 2 (GSI):
 
 Para que o jogo envie dados para o overlay, precisas de criar um ficheiro de configuração:
 
@@ -57,25 +57,25 @@ Cria um ficheiro chamado: ```gamestate_integration_overlay.cfg``` e cola o segui
 }
 ```
 
-### 2. Instalação de Dependências
+### 2. Instalação de Dependências:
 
 No terminal da raiz do projeto, executa:
 ```bash
 npm install
 ```
 
-### 3. Execução
+### 3. Execução:
 
 Precisas de iniciar o servidor de bridge (que recebe os dados do Dota) e o cliente Electron:
 ```bash
-# Iniciar o servidor de dados
+# Iniciar o servidor de dados:
 node server.js
 
-# Em outro terminal, iniciar o overlay
+# Em outro terminal, iniciar o overlay:
 npm start
 ```
 
-# ⚠️ Notas Importantes
+# ⚠️ Notas Importantes:
 
 Modo de Janela: O Dota 2 deve estar em modo "Janela Sem Bordas" (Borderless Window) para que o overlay do Electron consiga aparecer por cima do jogo.
 
@@ -83,6 +83,6 @@ Transparência: A transparência é gerida pelo ficheiro main.js do Electron e p
 
 Segurança: O GSI é uma ferramenta oficial da Valve e não resulta em banimentos (VAC Safe), pois apenas lê dados autorizados fornecidos pelo próprio cliente de jogo.
 
-# 📝 Licença
+# 📝 Licença:
 
 Este projeto foi desenvolvido para uso pessoal e tático por Hyago. Sinta-se à vontade para modificar e adaptar às suas necessidades de jogo.
