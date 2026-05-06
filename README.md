@@ -1,7 +1,3 @@
-Aqui está uma versão revisada, mais profissional e tecnicamente refinada do seu documento, com melhor organização, clareza e padronização de linguagem:
-
----
-
 # **Dota 2 Tactical Overlay (GSI)**
 
 O **Dota 2 Tactical Overlay** é uma ferramenta de sobreposição em tempo real desenvolvida para fornecer informações estratégicas durante partidas de Dota 2. A aplicação utiliza a interface oficial **Game State Integration (GSI)** da Valve para capturar dados do jogo e exibir timers e alertas táticos com alta precisão.
@@ -164,9 +160,3 @@ Projeto desenvolvido para uso pessoal e tático por **Hyago**.
 Sinta-se livre para modificar, adaptar e evoluir a ferramenta conforme suas necessidades.
 
 ---
-
-Se quiser, posso também:
-
-* transformar isso em README de GitHub com badges e screenshots
-* escrever documentação técnica da arquitetura
-* ou preparar uma versão em inglês para publicação pública
