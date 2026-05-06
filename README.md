@@ -1,43 +1,99 @@
-# Dota 2 Tactical Overlay(GSI)
+Aqui está uma versão revisada, mais profissional e tecnicamente refinada do seu documento, com melhor organização, clareza e padronização de linguagem:
 
-Este é um overlay tático em tempo real para Dota 2, construído com React, Tailwind CSS e Electron. O sistema utiliza a interface GSI (GameState Integration) oficial da Valve para extrair dados do jogo e exibir timers precisos de objetivos.
+---
 
-# 🚀 Funcionalidades:
+# **Dota 2 Tactical Overlay (GSI)**
 
-- Relógio Expert: Sincronizado diretamente com o tempo real da partida.
+O **Dota 2 Tactical Overlay** é uma ferramenta de sobreposição em tempo real desenvolvida para fornecer informações estratégicas durante partidas de Dota 2. A aplicação utiliza a interface oficial **Game State Integration (GSI)** da Valve para capturar dados do jogo e exibir timers e alertas táticos com alta precisão.
 
-- Timers de Runas: Contagem decrescente para Runas de Poder, Recompensa (Bounty), Lótus e Sabedoria.
+Construído com **React**, **Tailwind CSS** e **Electron**, o sistema oferece uma interface leve, responsiva e não intrusiva.
 
-- Controlo de Roshan: Monitorização da janela de respawn (Mínima/Máxima) baseada em eventos reais.
+---
 
-- Fases do Jogo: Alertas visuais para Early, Mid e Late Game.
+## 🚀 **Funcionalidades**
 
-- Interface Transparente: Design minimalista que não obstrui a visão do jogador. (ainda em desenvolvimento...)
+### **Relógio de Partida (Modo Expert)**
 
-- Dicas Dinâmicas: Sugestões táticas baseadas no tempo de jogo e objetivos iminentes.
+Sincronização direta com o tempo oficial da partida, garantindo precisão absoluta para decisões estratégicas.
 
-# 🛠️ Tecnologias Utilizadas:
+### **Timers de Objetivos**
 
-- Frontend: React.js, Tailwind CSS, Lucide Icons.
+* Runas de Poder (Power Runes)
+* Runas de Recompensa (Bounty Runes)
+* Lótus (Lotus Pools)
+* Runas de Sabedoria (Wisdom Runes)
 
-- Backend (Bridge): Node.js com WebSockets (ws).
+Todos com contagem regressiva em tempo real.
 
-- Desktop Shell: Electron (para suporte a janelas transparentes e click-through).
+### **Controle de Roshan**
 
-- Integração: Dota 2 GameState Integration (GSI).
+Monitoramento inteligente da janela de respawn (tempo mínimo e máximo), baseado em eventos reais capturados via GSI.
 
-# 📦 Instalação e Configuração:
+### **Fases do Jogo**
 
-### 1. Configurar o Dota 2 (GSI):
+Alertas visuais automáticos para:
 
-Para que o jogo envie dados para o overlay, precisas de criar um ficheiro de configuração:
+* Early Game
+* Mid Game
+* Late Game
 
-Navega até a pasta de configuração do Dota 2:
-```C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\```
-(Se a pasta ```gamestate_integration``` não existir, cria-a).
+### **Interface Transparente**
 
-Cria um ficheiro chamado: ```gamestate_integration_overlay.cfg``` e cola o seguinte conteúdo:
-```bash
+Overlay com design minimalista e suporte a transparência e *click-through*, evitando interferência na visão do jogador.
+*(Funcionalidade em evolução)*
+
+### **Dicas Dinâmicas**
+
+Sugestões táticas contextuais baseadas no tempo de jogo e na proximidade de objetivos críticos.
+
+---
+
+## 🛠️ **Stack Tecnológica**
+
+**Frontend**
+
+* React.js
+* Tailwind CSS
+* Lucide Icons
+
+**Backend (Bridge de Dados)**
+
+* Node.js
+* WebSocket (`ws`)
+
+**Desktop Runtime**
+
+* Electron (suporte a transparência e sobreposição de janela)
+
+**Integração**
+
+* Dota 2 Game State Integration (GSI)
+
+---
+
+## 📦 **Instalação e Configuração**
+
+### **1. Configuração do GSI no Dota 2**
+
+Para habilitar o envio de dados do jogo:
+
+1. Navegue até o diretório de configuração:
+
+```
+C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta\game\dota\cfg\gamestate_integration\
+```
+
+> Caso a pasta `gamestate_integration` não exista, crie-a manualmente.
+
+2. Crie o arquivo:
+
+```
+gamestate_integration_overlay.cfg
+```
+
+3. Insira o seguinte conteúdo:
+
+```cfg
 "Dota 2 Integration Configuration"
 {
     "uri"           "http://localhost:3001/"
@@ -57,32 +113,60 @@ Cria um ficheiro chamado: ```gamestate_integration_overlay.cfg``` e cola o segui
 }
 ```
 
-### 2. Instalação de Dependências:
+---
 
-No terminal da raiz do projeto, executa:
+### **2. Instalação de Dependências**
+
+No diretório raiz do projeto:
+
 ```bash
 npm install
 ```
 
-### 3. Execução:
+---
 
-Precisas de iniciar o servidor de bridge (que recebe os dados do Dota) e o cliente Electron:
+### **3. Execução da Aplicação**
+
+Inicie os serviços necessários:
+
 ```bash
-# Iniciar o servidor de dados:
+# Servidor de dados (bridge GSI)
 node server.js
 
-# Em outro terminal, iniciar o overlay:
+# Em outro terminal, iniciar o overlay
 npm start
 ```
 
-# ⚠️ Notas Importantes:
+---
 
-Modo de Janela: O Dota 2 deve estar em modo "Janela Sem Bordas" (Borderless Window) para que o overlay do Electron consiga aparecer por cima do jogo.
+## ⚠️ **Notas Importantes**
 
-Transparência: A transparência é gerida pelo ficheiro main.js do Electron e pelas classes bg-transparent no React.
+### **Modo de Exibição**
 
-Segurança: O GSI é uma ferramenta oficial da Valve e não resulta em banimentos (VAC Safe), pois apenas lê dados autorizados fornecidos pelo próprio cliente de jogo.
+O Dota 2 deve estar configurado como **"Janela Sem Bordas" (Borderless Window)** para permitir que o overlay seja exibido corretamente.
 
-# 📝 Licença:
+### **Transparência**
 
-Este projeto foi desenvolvido para uso pessoal e tático por Hyago. Sinta-se à vontade para modificar e adaptar às suas necessidades de jogo.
+Gerenciada por:
+
+* Configurações do Electron (`main.js`)
+* Estilos `bg-transparent` no React
+
+### **Segurança**
+
+O uso do GSI é **oficial e seguro (VAC Safe)**, pois apenas consome dados disponibilizados pelo cliente do jogo, sem qualquer modificação ou interferência no mesmo.
+
+---
+
+## 📝 **Licença**
+
+Projeto desenvolvido para uso pessoal e tático por **Hyago**.
+Sinta-se livre para modificar, adaptar e evoluir a ferramenta conforme suas necessidades.
+
+---
+
+Se quiser, posso também:
+
+* transformar isso em README de GitHub com badges e screenshots
+* escrever documentação técnica da arquitetura
+* ou preparar uma versão em inglês para publicação pública
