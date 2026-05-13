@@ -2,7 +2,7 @@
 
 O **Dota 2 Tactical Overlay** é uma ferramenta de sobreposição em tempo real desenvolvida para fornecer informações estratégicas durante partidas de Dota 2. A aplicação utiliza a interface oficial **Game State Integration (GSI)** da Valve para capturar dados do jogo e exibir timers e alertas táticos com alta precisão.
 
-Construído com **React**, **Tailwind CSS** e **Electron**, o sistema oferece uma interface leve, responsiva e não intrusiva.
+> Construído com **React**, **Tailwind CSS** e **Electron**, o sistema oferece uma interface leve, responsiva e não intrusiva.
 
 ---
 
