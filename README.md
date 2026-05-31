@@ -23,7 +23,7 @@ Todos com contagem regressiva em tempo real.
 
 ### **Controle de Roshan**
 
-Monitoramento inteligente da janela de respawn (tempo mínimo e máximo), baseado em eventos reais capturados via GSI.
+- Monitoramento inteligente da janela de respawn (tempo mínimo e máximo), baseado em eventos reais capturados via GSI.
 
 ### **Fases do Jogo**
 
