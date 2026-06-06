@@ -10,7 +10,7 @@ O **Dota 2 Tactical Overlay** é uma ferramenta de sobreposição em tempo real 
 
 ### **Relógio de Partida (Modo Expert)**
 
-Sincronização direta com o tempo oficial da partida, garantindo precisão absoluta para decisões estratégicas.
+- Sincronização direta com o tempo oficial da partida, garantindo precisão absoluta para decisões estratégicas.
 
 ### **Timers de Objetivos**
 
