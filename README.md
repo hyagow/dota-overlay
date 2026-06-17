@@ -35,7 +35,7 @@ Alertas visuais automáticos para:
 
 ### **Interface Transparente**
 
-Overlay com design minimalista e suporte a transparência e *click-through*, evitando interferência na visão do jogador.
+- Overlay com design minimalista e suporte a transparência e *click-through*, evitando interferência na visão do jogador.
 *(Funcionalidade em evolução)*
 
 ### **Dicas Dinâmicas**
