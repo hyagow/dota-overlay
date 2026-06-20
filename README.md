@@ -40,7 +40,7 @@ Alertas visuais automáticos para:
 
 ### **Dicas Dinâmicas**
 
-Sugestões táticas contextuais baseadas no tempo de jogo e na proximidade de objetivos críticos.
+- Sugestões táticas contextuais baseadas no tempo de jogo e na proximidade de objetivos críticos.
 
 ---
 
