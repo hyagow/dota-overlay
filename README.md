@@ -139,7 +139,7 @@ npm start
 
 ### **Modo de Exibição**
 
-O Dota 2 deve estar configurado como **"Janela Sem Bordas" (Borderless Window)** para permitir que o overlay seja exibido corretamente.
+- O Dota 2 deve estar configurado como **"Janela Sem Bordas" (Borderless Window)** para permitir que o overlay seja exibido corretamente.
 
 ### **Transparência**
 
