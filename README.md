@@ -150,7 +150,7 @@ Gerenciada por:
 
 ### **Segurança**
 
-O uso do GSI é **oficial e seguro (VAC Safe)**, pois apenas consome dados disponibilizados pelo cliente do jogo, sem qualquer modificação ou interferência no mesmo.
+- O uso do GSI é **oficial e seguro (VAC Safe)**, pois apenas consome dados disponibilizados pelo cliente do jogo, sem qualquer modificação ou interferência no mesmo.
 
 ---
 
